@@ -106,13 +106,13 @@
   }
 }
 
-/* Анимации для карточек */
+/* Анимации для интерактивных элементов */
 @layer components {
   .card-hover-effect {
     @apply transition-all duration-300 hover:shadow-lg;
   }
   
-  .image-hover-effect {
-    @apply transition-transform duration-500 hover:scale-105;
+  .table-row-hover {
+    @apply transition-colors hover:bg-gray-50;
   }
 }
